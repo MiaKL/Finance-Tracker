@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>W_CreateNewEntry</class>
+ <widget class="QDialog" name="W_CreateNewEntry">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_CreateNewEntry">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>10</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Copperplate</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+     <underline>false</underline>
+     <strikeout>false</strikeout>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(1, 25, 147)</string>
+   </property>
+   <property name="text">
+    <string>Create New Entry</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>371</width>
+     <height>178</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_Type">
+      <property name="text">
+       <string>Type:     </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_Type">
+      <item>
+       <property name="text">
+        <string>Income</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Expense</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_Category">
+      <property name="text">
+       <string>Category:     </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_Subcategory">
+      <property name="text">
+       <string>Subcategory (optional):     </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="lineEdit_Subcategory"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_Amount">
+      <property name="text">
+       <string>Amount:  </string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_Date">
+      <property name="text">
+       <string>Date:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QDateEdit" name="dateEdit"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_Category"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDoubleSpinBox" name="doubleSpinBox_Amount">
+      <property name="maximum">
+       <double>9999999.990000000223517</double>
+      </property>
+      <property name="singleStep">
+       <double>10.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Create">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>100</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  color: rgb(1, 25, 147);
+  font: 13pt &quot;Arial&quot;;
+  background: rgb(214, 214, 214);
+}</string>
+   </property>
+   <property name="text">
+    <string>Create</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
