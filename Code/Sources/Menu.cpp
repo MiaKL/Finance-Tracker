@@ -1,3 +1,9 @@
+/*
+Author: Mia Kelley-Lanser
+Date: 05/07/2023
+All rights reserved
+*/
+
 #include "Menu.h"
 #include "W_Login.h"
 #include "ui_Menu.h"
