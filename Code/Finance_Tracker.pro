@@ -1,3 +1,7 @@
+# Author: Mia Kelley-Lanser
+# Date: 05/07/2023
+# All rights reserved
+
 QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets printsupport
