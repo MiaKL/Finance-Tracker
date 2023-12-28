@@ -1,3 +1,9 @@
+/*
+Author: Mia Kelley-Lanser
+Date: 05/07/2023
+All rights reserved
+*/
+
 #include "EntryDatabase.h"
 
 #include <cmath>
