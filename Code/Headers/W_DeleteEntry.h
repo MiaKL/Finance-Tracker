@@ -1,7 +1,7 @@
 /*
- * Author: Mia Kelley-Lanser
- * Class: Advanced C++
- * Date: 05/07/2023
+Author: Mia Kelley-Lanser
+Date: 05/07/2023
+All rights reserved
 */
 
 #ifndef W_DELETEENTRY_H
