@@ -1,3 +1,9 @@
+/*
+Author: Mia Kelley-Lanser
+Date: 05/07/2023
+All rights reserved
+*/
+
 #include "W_CreateNewEntry.h"
 #include "ui_W_CreateNewEntry.h"
 
