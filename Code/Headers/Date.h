@@ -1,7 +1,7 @@
 /*
 Author: Mia Kelley-Lanser
-Course: Advanced C++
 Date: 05/07/2023
+All rights reserved
 */
 
 #pragma once
